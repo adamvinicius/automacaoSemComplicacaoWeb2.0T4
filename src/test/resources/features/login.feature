@@ -10,10 +10,12 @@ Funcionalidade: Login
     Quando for realizado um clique fora da modal
     Entao a janela modal deve ser fechada
 
+  @fecharModalIcone
   Cenario: Fechar a modal ao clicar no ícone fechar
     Quando for realizado um clique no icone de fechar modal
     Entao a janela modal deve ser fechada
 
+  @CreateNewAccount
   Cenario: Link Create New Account
     Quando for realizado um clique no link Create New Account
     Entao a pagina Create New Account deve ser exibida
@@ -45,6 +47,7 @@ Funcionalidade: Login
       | usuário invalido | invalido | senha    | false    |
       | senha invalida   | chronos  | invalida | false    |
 
+  @dadosEmBranco
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login sejam preenchidos da seguinte forma
       | login    | <login>    |
