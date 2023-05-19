@@ -31,7 +31,7 @@ Funcionalidade: Login
 
     Exemplos:
       | identificacao       | login   | password | remember |
-      | campos obrigatorios | chronos | Senha123 | false    |
+      | campos obrigatorios | erro    | Senha123 | false    |
       | todos os campos     | chronos | Senha123 | true     |
 
   @loginInvalido
